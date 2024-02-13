@@ -1,0 +1,10 @@
+server:
+  port: 9000
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+address:
+  frontend: "https://todolist.cfapps.us10-001.hana.ondemand.com"
+  clientId: "todo-app-client"
+  secret: "secret"

@@ -1,0 +1,17 @@
+spring:
+  data:
+    rest:
+      base-path: /data-api
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://todo-list-auth-server.cfapps.us10-001.hana.ondemand.com
+  jpa:
+    hibernate:
+      ddl-auto: update
+address:
+  frontend: "http://localhost:3000"
+  clientId: "todo-app-client"
+  secret: "secret"
+
