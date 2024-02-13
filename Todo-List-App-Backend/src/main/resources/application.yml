@@ -11,7 +11,7 @@ spring:
     hibernate:
       ddl-auto: update
 address:
-  frontend: "http://localhost:3000"
-  clientId: "todo-app-client"
-  secret: "secret"
+  frontend: ${FORNTEND}
+  clientId: ${CLIENT_ID}
+  secret: ${SECRET}
 
